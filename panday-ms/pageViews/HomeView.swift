@@ -27,7 +27,7 @@ struct HomeView: View {
                 Spacer()
                 
             }
-        }
+        }.navigationBarBackButtonHidden(true)
     }
 }
 

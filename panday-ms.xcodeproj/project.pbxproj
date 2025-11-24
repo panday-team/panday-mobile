@@ -1,0 +1,613 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		72A76F252ED51055002E51C6 /* Clerk in Frameworks */ = {isa = PBXBuildFile; productRef = 72A76F242ED51055002E51C6 /* Clerk */; };
+		72A8E0792ED4070A004B2E29 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 72A8E0782ED4070A004B2E29 /* .gitignore */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		725EC3922ED3B3AB00256C07 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 725EC37C2ED3B3AA00256C07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 725EC3832ED3B3AA00256C07;
+			remoteInfo = "panday-ms";
+		};
+		725EC39C2ED3B3AB00256C07 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 725EC37C2ED3B3AA00256C07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 725EC3832ED3B3AA00256C07;
+			remoteInfo = "panday-ms";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		725EC3842ED3B3AA00256C07 /* panday-ms.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "panday-ms.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		725EC3912ED3B3AB00256C07 /* panday-msTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "panday-msTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		725EC39B2ED3B3AB00256C07 /* panday-msUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "panday-msUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		72A8E0782ED4070A004B2E29 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		725EC3862ED3B3AA00256C07 /* panday-ms */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "panday-ms";
+			sourceTree = "<group>";
+		};
+		725EC3942ED3B3AB00256C07 /* panday-msTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "panday-msTests";
+			sourceTree = "<group>";
+		};
+		725EC39E2ED3B3AB00256C07 /* panday-msUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "panday-msUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		725EC3812ED3B3AA00256C07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72A76F252ED51055002E51C6 /* Clerk in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		725EC38E2ED3B3AB00256C07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		725EC3982ED3B3AB00256C07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		725EC37B2ED3B3AA00256C07 = {
+			isa = PBXGroup;
+			children = (
+				725EC3862ED3B3AA00256C07 /* panday-ms */,
+				725EC3942ED3B3AB00256C07 /* panday-msTests */,
+				725EC39E2ED3B3AB00256C07 /* panday-msUITests */,
+				725EC3852ED3B3AA00256C07 /* Products */,
+				72A8E0782ED4070A004B2E29 /* .gitignore */,
+			);
+			sourceTree = "<group>";
+		};
+		725EC3852ED3B3AA00256C07 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				725EC3842ED3B3AA00256C07 /* panday-ms.app */,
+				725EC3912ED3B3AB00256C07 /* panday-msTests.xctest */,
+				725EC39B2ED3B3AB00256C07 /* panday-msUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		725EC3832ED3B3AA00256C07 /* panday-ms */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 725EC3A52ED3B3AB00256C07 /* Build configuration list for PBXNativeTarget "panday-ms" */;
+			buildPhases = (
+				725EC3802ED3B3AA00256C07 /* Sources */,
+				725EC3812ED3B3AA00256C07 /* Frameworks */,
+				725EC3822ED3B3AA00256C07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				725EC3862ED3B3AA00256C07 /* panday-ms */,
+			);
+			name = "panday-ms";
+			packageProductDependencies = (
+				72A76F242ED51055002E51C6 /* Clerk */,
+			);
+			productName = "panday-ms";
+			productReference = 725EC3842ED3B3AA00256C07 /* panday-ms.app */;
+			productType = "com.apple.product-type.application";
+		};
+		725EC3902ED3B3AB00256C07 /* panday-msTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 725EC3A82ED3B3AB00256C07 /* Build configuration list for PBXNativeTarget "panday-msTests" */;
+			buildPhases = (
+				725EC38D2ED3B3AB00256C07 /* Sources */,
+				725EC38E2ED3B3AB00256C07 /* Frameworks */,
+				725EC38F2ED3B3AB00256C07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				725EC3932ED3B3AB00256C07 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				725EC3942ED3B3AB00256C07 /* panday-msTests */,
+			);
+			name = "panday-msTests";
+			packageProductDependencies = (
+			);
+			productName = "panday-msTests";
+			productReference = 725EC3912ED3B3AB00256C07 /* panday-msTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		725EC39A2ED3B3AB00256C07 /* panday-msUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 725EC3AB2ED3B3AB00256C07 /* Build configuration list for PBXNativeTarget "panday-msUITests" */;
+			buildPhases = (
+				725EC3972ED3B3AB00256C07 /* Sources */,
+				725EC3982ED3B3AB00256C07 /* Frameworks */,
+				725EC3992ED3B3AB00256C07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				725EC39D2ED3B3AB00256C07 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				725EC39E2ED3B3AB00256C07 /* panday-msUITests */,
+			);
+			name = "panday-msUITests";
+			packageProductDependencies = (
+			);
+			productName = "panday-msUITests";
+			productReference = 725EC39B2ED3B3AB00256C07 /* panday-msUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		725EC37C2ED3B3AA00256C07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2600;
+				LastUpgradeCheck = 2600;
+				TargetAttributes = {
+					725EC3832ED3B3AA00256C07 = {
+						CreatedOnToolsVersion = 26.0.1;
+					};
+					725EC3902ED3B3AB00256C07 = {
+						CreatedOnToolsVersion = 26.0.1;
+						TestTargetID = 725EC3832ED3B3AA00256C07;
+					};
+					725EC39A2ED3B3AB00256C07 = {
+						CreatedOnToolsVersion = 26.0.1;
+						TestTargetID = 725EC3832ED3B3AA00256C07;
+					};
+				};
+			};
+			buildConfigurationList = 725EC37F2ED3B3AA00256C07 /* Build configuration list for PBXProject "panday-ms" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 725EC37B2ED3B3AA00256C07;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				72A76F232ED51055002E51C6 /* XCRemoteSwiftPackageReference "clerk-ios" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 725EC3852ED3B3AA00256C07 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				725EC3832ED3B3AA00256C07 /* panday-ms */,
+				725EC3902ED3B3AB00256C07 /* panday-msTests */,
+				725EC39A2ED3B3AB00256C07 /* panday-msUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		725EC3822ED3B3AA00256C07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72A8E0792ED4070A004B2E29 /* .gitignore in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		725EC38F2ED3B3AB00256C07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		725EC3992ED3B3AB00256C07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		725EC3802ED3B3AA00256C07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		725EC38D2ED3B3AB00256C07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		725EC3972ED3B3AB00256C07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		725EC3932ED3B3AB00256C07 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 725EC3832ED3B3AA00256C07 /* panday-ms */;
+			targetProxy = 725EC3922ED3B3AB00256C07 /* PBXContainerItemProxy */;
+		};
+		725EC39D2ED3B3AB00256C07 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 725EC3832ED3B3AA00256C07 /* panday-ms */;
+			targetProxy = 725EC39C2ED3B3AB00256C07 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		725EC3A32ED3B3AB00256C07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		725EC3A42ED3B3AB00256C07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		725EC3A62ED3B3AB00256C07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SXN2T3AFB6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Panday;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.panday.panday-ms";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		725EC3A72ED3B3AB00256C07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SXN2T3AFB6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Panday;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.panday.panday-ms";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		725EC3A92ED3B3AB00256C07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.panday.panday-msTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/panday-ms.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/panday-ms";
+			};
+			name = Debug;
+		};
+		725EC3AA2ED3B3AB00256C07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.panday.panday-msTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/panday-ms.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/panday-ms";
+			};
+			name = Release;
+		};
+		725EC3AC2ED3B3AB00256C07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.panday.panday-msUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "panday-ms";
+			};
+			name = Debug;
+		};
+		725EC3AD2ED3B3AB00256C07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.panday.panday-msUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "panday-ms";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		725EC37F2ED3B3AA00256C07 /* Build configuration list for PBXProject "panday-ms" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				725EC3A32ED3B3AB00256C07 /* Debug */,
+				725EC3A42ED3B3AB00256C07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		725EC3A52ED3B3AB00256C07 /* Build configuration list for PBXNativeTarget "panday-ms" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				725EC3A62ED3B3AB00256C07 /* Debug */,
+				725EC3A72ED3B3AB00256C07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		725EC3A82ED3B3AB00256C07 /* Build configuration list for PBXNativeTarget "panday-msTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				725EC3A92ED3B3AB00256C07 /* Debug */,
+				725EC3AA2ED3B3AB00256C07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		725EC3AB2ED3B3AB00256C07 /* Build configuration list for PBXNativeTarget "panday-msUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				725EC3AC2ED3B3AB00256C07 /* Debug */,
+				725EC3AD2ED3B3AB00256C07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		72A76F232ED51055002E51C6 /* XCRemoteSwiftPackageReference "clerk-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/clerk/clerk-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.71.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		72A76F242ED51055002E51C6 /* Clerk */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 72A76F232ED51055002E51C6 /* XCRemoteSwiftPackageReference "clerk-ios" */;
+			productName = Clerk;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 725EC37C2ED3B3AA00256C07 /* Project object */;
+}

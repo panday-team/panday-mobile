@@ -35,7 +35,7 @@ struct LandingView: View {
                     NavigationLink {
                         HomeView()
                     } label: {
-                        Text("Go Now!")
+                        Text("Sign In")
                             .font(.title3)
                             .fontWeight(.semibold)
                             .foregroundStyle(.white)
