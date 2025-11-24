@@ -1,0 +1,59 @@
+# Xcode user/workspace state
+
+*.xcuserdatad/
+*.xcuserdata/
+*.xcscmblueprint
+*.xccheckout
+
+panday-ms.xcodeproj/*
+
+# Build artifacts
+
+DerivedData/
+build/
+*.ipa
+*.dSYM
+*.dSYM.zip
+
+# Swift Package Manager
+
+.build/
+.swiftpm/xcode/package.xcworkspace/xcuserdata/
+.swiftpm/xcode/package.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings
+
+# CocoaPods
+
+Pods/
+!Podfile
+!Podfile.lock
+
+# Carthage
+
+Carthage/Build/
+
+# Fastlane (optional, safe to ignore if you add fastlane later)
+
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+# Secrets / Config (adjust to your setup)
+
+*.env
+*.env.*
+GoogleService-Info.plist
+
+# OS/editor
+
+.DS_Store
+*.swp
+*.tmp
+Thumbs.db
+
+# Logs
+
+*.log
+
+# Merge leftovers
+*.orig
